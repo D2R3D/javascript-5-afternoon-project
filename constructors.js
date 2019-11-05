@@ -144,10 +144,8 @@ User.prototype.removeSavedPost = function(id) {
 
 // Code here
 
-User.prototype.changePostRating = function(id, num) {
- let newRating = this.savedPosts.indexOf(id)
- this.savedPosts.rating.splice(newRating, 0, num)
+// User.prototype.changePostRating = function(id, num) {
+// //  let newRating = this.savedPosts.indexOf(id)
+// //  this.savedPosts.rating.splice(newRating, 0, id)
 
- return 
-
-}
+// //  return this.savedPostsPosts
